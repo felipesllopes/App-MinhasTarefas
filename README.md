@@ -78,7 +78,7 @@ ________________________________________________________________________________
 <br/>
 
 _______________________________________________________________________________________________________________________________________________________________________________________
- ### Download:
+ ### Download: <a name="download"></a>
 
  You can download a preview version for Android here. Note: This file is not available on the Google Play Store. Make sure you really want to proceed with the download.
  
