@@ -33,7 +33,8 @@ ________________________________________________________________________________
 
 ### Image Screen: <a name="image-screens"> </a>
 
-![tela1](https://github.com/felipesllopes/App-MinhasTarefas/assets/99768939/0bae3645-0860-4172-86da-428e260c9b35)
+![tela1](https://github.com/felipesllopes/App-MinhasTarefas/assets/99768939/7e59dc13-35c0-4a3e-b4f8-073d867ac7f6)
+
 
 <br/>
 
