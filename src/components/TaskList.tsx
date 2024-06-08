@@ -40,7 +40,6 @@ export const TaskList: React.FunctionComponent<IProps> = ({
             <TextTask>{item.title}</TextTask>
             <Icon name="pencil" onPress={() => setShow(true)} />
 
-            {/* Modal */}
             <EditTask
                 item={item}
                 setShow={setShow}
@@ -53,7 +52,7 @@ export const TaskList: React.FunctionComponent<IProps> = ({
 
 const ViewTask = styled.View`
     background-color: ${theme.colors.darkGray};
-    margin: 0 5px 20px;
+    margin: 0 5px 15px;
     border-radius: 10px;
     flex-direction: row;
     align-items: center;
@@ -73,5 +72,5 @@ const TextTask = styled.Text`
 const Icon = styled(Ionicons)`
     font-size: 20px;
     padding: 1px 5px;
-    color: ${theme.colors.white};
+    color: ${theme.colors.principal};
 `;

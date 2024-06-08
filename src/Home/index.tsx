@@ -64,7 +64,7 @@ export const Home: React.FunctionComponent = () => {
                 style={{ height: windowHeight, width: windowWidth }}
             >
                 <Screen>
-                    <Title>Minhas tarefas</Title>
+                    <Title>MINHAS TAREFAS</Title>
 
                     <TextInput
                         placeholder="Nova tarefa"
@@ -73,7 +73,7 @@ export const Home: React.FunctionComponent = () => {
                     />
 
                     <Button onPress={addTaskk} activeOpacity={0.8}>
-                        <TextButton>Adicionar</TextButton>
+                        <TextButton>ADICIONAR</TextButton>
                     </Button>
 
                     <Subtitle>Lista de tarefas</Subtitle>

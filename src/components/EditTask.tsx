@@ -2,9 +2,9 @@ import Ionicons from "@expo/vector-icons/Ionicons";
 import React, { useState } from "react";
 import { Modal, TextInput } from "react-native";
 import styled from "styled-components/native";
+import theme from "../global/styles/theme";
 import { ITask } from "../interface";
 import { editTask } from "../service/asyncstorage";
-import theme from "../global/styles/theme";
 
 interface IProps {
     item: ITask;
@@ -48,7 +48,7 @@ export const EditTask: React.FunctionComponent<IProps> = ({
                         onPress={handleEditTask}
                         disabled={value == item.title}
                     >
-                        <TextButton>Salvar</TextButton>
+                        <TextButton>SALVAR</TextButton>
                     </Button>
                 </Container>
             </Screen>
@@ -58,16 +58,16 @@ export const EditTask: React.FunctionComponent<IProps> = ({
 
 const Screen = styled.View`
     flex: 1;
-    width: 100%;
     background-color: rgba(50, 50, 50, 0.8);
     align-items: center;
     justify-content: center;
 `;
 
 const Container = styled.View`
-    background-color: ${theme.colors.gray};
+    background-color: ${theme.colors.black};
     border-radius: 10px;
-    width: 70%;
+    width: 80%;
+    padding: 10px;
 `;
 
 const CancelEdit = styled(Ionicons)`
@@ -76,34 +76,33 @@ const CancelEdit = styled(Ionicons)`
     right: 0;
     padding: 4px;
     z-index: 2;
+    color: ${theme.colors.white};
 `;
 
 const Title = styled.Text`
     text-align: center;
     font-size: 20px;
-    margin: 20px;
-    font-weight: bold;
+    margin-bottom: 20px;
+    color: ${theme.colors.white};
 `;
 
 const Item = styled(TextInput)`
-    background-color: ${theme.colors.darkGray};
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    margin: 15px 25px;
+    background-color: ${theme.colors.white};
+    font-size: 18px;
+    margin: 15px 10px 5px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 6px 10px;
 `;
 
 const Button = styled.TouchableOpacity`
     background-color: ${theme.colors.principal};
-    align-self: center;
     margin: 10px;
     border-radius: 5px;
 `;
 
 const TextButton = styled.Text`
-    font-size: 18px;
+    font-size: 17px;
     padding: 5px 12px;
-    font-weight: bold;
+    font-weight: 500;
+    text-align: center;
 `;
