@@ -1,4 +1,4 @@
-# App-MinhasTarefas
+# MinhasTarefas app
 
 > This is an application under development. The main development environment is Windows, and currently, the application is only compatible with the Android system.
 
